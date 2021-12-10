@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        tr td {
+            padding: 4px;
+        }
+
+        tr td p{
+            display: inline;
+        }
+        tr td a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://web-503073.herokuapp.com/lab01/login.php" method="post">    
+        <table>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="email@doman.com" name="email" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="******" name="password" id="" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Remember me</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="chk_remember" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <button type="submit" value="submit" >Login</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <p>Not registered?</p> <a href="">Create an account</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <p>For got your password?</p> <a href="">Click here to reset</a>
+                </td>
+            </tr>
+        
+        </table>
+    </form>
+</body>
+</html>
